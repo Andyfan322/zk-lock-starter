@@ -16,9 +16,7 @@
  
  * 注意点
  
-     * @ConditionalOnMissingBean ConditionalOnClass
-     
-     > 其实者2注解不加页可以实例化，最多加了这2个注解为了防止代码里已经实例化了所需要的类，再让spring来实际化会产生错误/重复。
+     * @ConditionalOnMissingBean 、ConditionalOnClass 其实者2注解不加也可以子啊springBoot里面自动装配，主要是加了这2个注解，防止人为在代码里已经实例化了所需要的类，再让spring来装配它会产生错误/重复。
      
      * 实例化类，具体的内容也可以不用写在配置文件里面，自己在代码里面写死属性值也是可以的
      
