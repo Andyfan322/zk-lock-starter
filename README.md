@@ -16,7 +16,9 @@
  
  * 注意点
  
-     * @ConditionalOnMissingBean 、ConditionalOnClass 其实者2注解不加也可以子啊springBoot里面自动装配，主要是加了这2个注解，防止人为在代码里已经实例化了所需要的类，再让spring来装配它会产生错误/重复。
+     * @ConditionalOnMissingBean 、ConditionalOnClass 其实者2注解不加也可以在springBoot里面自动装配，主要是加了这2个注解，防止人为在代码里已经实例化了所需要的类，再让spring来装配它会产生错误/重复。
+     
+     * META-INF 下面的spring.factories 配置很重要，springBoot在启动的时候会读取这里面需要自动装配的类
      
      * 实例化类，具体的内容也可以不用写在配置文件里面，自己在代码里面写死属性值也是可以的
      
