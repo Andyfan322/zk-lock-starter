@@ -29,6 +29,9 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
   </plugin>
+  
  ```
+    
+ * 执行 mvn clean install -Dmaven.test.skip 打包到本地maven仓库，在需要的地方执行引用此打包好的jar就ok了。 
  
  * 后续我会将这个starter改写为zk锁的服务
