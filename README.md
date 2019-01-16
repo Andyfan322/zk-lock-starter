@@ -1,6 +1,10 @@
-* 编写自己的starter引入的依赖说明
+* 编写自己的starter说明
 
 ```
+ <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+ </dependency>
 <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-configuration-processor</artifactId>
