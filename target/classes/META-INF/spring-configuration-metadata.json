@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "example.service",
+      "type": "com.zk.lock.zklock.config.ExampleServiceProperties",
+      "sourceType": "com.zk.lock.zklock.config.ExampleServiceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "example.service.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.zk.lock.zklock.config.ExampleServiceProperties"
+    },
+    {
+      "name": "example.service.suffix",
+      "type": "java.lang.String",
+      "sourceType": "com.zk.lock.zklock.config.ExampleServiceProperties"
+    }
+  ],
+  "hints": []
+}

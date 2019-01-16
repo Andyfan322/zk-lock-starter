@@ -1,0 +1,4 @@
+META-INF/spring-configuration-metadata.json
+com/zk/lock/zklock/config/ExampleAutoConfigure.class
+com/zk/lock/zklock/config/ExampleServiceProperties.class
+com/zk/lock/zklock/service/ExampleService.class
