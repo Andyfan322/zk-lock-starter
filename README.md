@@ -28,7 +28,7 @@
  <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-    </plugin>
+  </plugin>
  ```
  
  * 后续我会将这个starter改写为zk锁的服务
